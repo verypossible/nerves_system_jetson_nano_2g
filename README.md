@@ -1,8 +1,8 @@
 # NVIDIA Jetson Nano Developer kit (4Gb)
 
-This is the base Nerves System configuration for the [Jetson Nano 2Gb Developer kit]https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/education-projects/).
+This is the base Nerves System configuration for the [Jetson Nano 2Gb Developer kit](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/education-projects/).
 
-![Jetson Nano 2Gb Developer kit image](assets/images/jetson_nano_devkit.jpg)
+![Jetson Nano 2Gb Developer kit image](assets/images/jetson_nano_2g_devkit.jpg)
 <br><sup>[Image credit](#nvidia)</sup>
 
 | Feature              | Description                     |
@@ -111,4 +111,4 @@ U-Boot originates from `nv-tegra.nvidia.com/3rdparty/u-boot.git` with
 patches originally coming from OE4T. The OE4T U-Boot patches have been updated
 to work with U-Boot 2021.01.
 
-[Image credit](#nvidia): This image is from [Nvidia](https://developer.nvidia.com/embedded/jetson-nano-developer-kit).
+[Image credit](#nvidia): This image is from [Nvidia](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/education-projects/).
