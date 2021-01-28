@@ -1,4 +1,4 @@
-# NVIDIA Jetson Nano Developer kit (4Gb)
+# NVIDIA Jetson Nano 2Gb Developer kit
 
 This is the base Nerves System configuration for the [Jetson Nano 2Gb Developer kit](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/education-projects/).
 
