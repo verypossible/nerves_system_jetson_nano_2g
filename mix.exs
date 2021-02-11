@@ -74,7 +74,7 @@ defmodule NervesSystemJetsonNano2G.MixProject do
 
   defp description do
     """
-    Nerves System - NVIDIA Jetson Nano (4Gb)
+    Nerves System - NVIDIA Jetson Nano (2Gb)
     """
   end
 
