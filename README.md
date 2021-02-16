@@ -33,8 +33,26 @@ quirks and known issues are:
   When the reboot hangs, eventually the message
   `sdhci-tegra sdhci-tegra.0: Tuning done` will be seen and the system will
   reboot.
+* Booting with a display attached results in a white screen and a kernel panic.
 
 ## Using
+
+### Powering the carrier board
+
+It is highly recommended to power the board using a USB-C power adapter that
+can provide up to 3A of power. Powering from your laptop may be unreliable.
+
+### Adding the system to your project
+
+The most common way of using this Nerves System is create a project with `mix
+nerves.new`, add `:jetson_nano_2g` to the `@all_targets` list at the top of the
+mix.exs file, and add the system to the deps:
+
+```elixir
+{:nerves_system_jetson_nano_2g, "~> 0.1", runtime: false, targets: :jetson_nano_2g}
+```
+
+Finally, you can export the Mix target and `MIX_TARGET=jetson_nano_2g`.
 
 The most common way of using this Nerves System is create a project with `mix
 nerves.new` and to export `MIX_TARGET=jetson_nano_2g`. See the [Getting started
